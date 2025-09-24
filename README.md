@@ -17,7 +17,7 @@ report_text = """# Reporte – Clasificación de Ingresos
   Se aplicó **SMOTE (Synthetic Minority Oversampling Technique)** para crear ejemplos sintéticos de la clase minoritaria (>50K), corrigiendo el desbalance.
 
 - **Separación de conjuntos**:  
-  - `train`: entrenamiento del modelo.  
+  - `Entrenamiento`: entrenamiento del modelo.  
   - `validación`: comparación de configuraciones (hiperparámetros).  
   - `Prueba final`: evaluación del mejor modelo, sin usarse en fases anteriores.
 
