@@ -3,7 +3,7 @@ report_text = """# Reporte – Clasificación de Ingresos
 ## 1. Decisiones de procesamiento de datos
 
 - **Uso de características**:  
-  Se utilizaron todas las variables originales del dataset *Adult* (edad, nivel educativo, ocupación, sexo, horas por semana, etc.). No se crearon variables nuevas derivadas de combinaciones.
+  Se utilizaron todas las variables originales del dataset *Adult* (edad, nivel educativo, ocupación, sexo, horas por semana, etc.). No se crearon variables nuevas ni derivadas de combinaciones.
 
 - **Tratamiento de valores faltantes**:  
   - Variables numéricas → imputadas con la **mediana**.  
