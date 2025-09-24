@@ -45,7 +45,7 @@ En todos los casos, el modelo con arquitectura `[1024, 512]` se mantuvo como el 
 
 ### Comparación con y sin regularización
 - **Sin regularización** (Experimento1, dropout=0, weight_decay=0):  
-  - Training loss bajó rápidamente, pero validation loss se disparó → Esto es un síntoma de *overfitting*.  
+  - Training loss bajó rápidamente, pero validation loss se disparó, lo que es síntoma de *overfitting*.  
   - AUC menor en validación.  
 
 - **Con regularización (Experimento4)**:  
