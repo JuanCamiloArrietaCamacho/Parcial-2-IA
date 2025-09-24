@@ -44,7 +44,7 @@ Durante los experimentos se probaron también:
 En todos los casos, el modelo con arquitectura `[1024, 512]` se mantuvo como el más robusto y con mejor desempeño en validación y test, superando a los **experimentos 1, 2, 3 y 5**.
 
 ### Comparación con y sin regularización
-- **Sin regularización** (exp1, dropout=0, weight_decay=0):  
+- **Sin regularización** (Experimento1, dropout=0, weight_decay=0):  
   - Training loss bajó rápidamente, pero validation loss se disparó → Esto es un síntoma de *overfitting*.  
   - AUC menor en validación.  
 
@@ -77,4 +77,6 @@ En todos los casos, el modelo con arquitectura `[1024, 512]` se mantuvo como el 
 
 👉 **Conclusión** 
 El MLP es superior en desempeño, pero la ganancia debe evaluarse frente al mayor costo computacional ya que este necesitó de más ram y se necesitó correrlo mediante GPU y puede ser más difícil de interpretar.
+
+**Nota**: Para la realización de este trabajo se utilizó la asistencia de herramientas de inteligencia artificial como ChatGPT y Gemini con el objetivo de corregir errores de sintaxis en el código y aclarar conceptos netamente teóricos. Todas las decisiones de modelado, procesamiento de datos y selección de hiperparámetros fueron tomadas de manera autónoma en el desarrollo del proyecto.
 """
